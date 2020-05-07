@@ -2,75 +2,77 @@
 <html lang="es">
 
 <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>Pagina Web</title>
-    <meta name="description" content="Esta es mi primer Pagina Web"/>
-    <meta name="author" content="Enmanuel Celedonio"/>
-    <meta name="keywords" content="Mi primer titulo, mi primer pagina, pagina web"/>   
+    <meta name="description" content="Esta es mi primer Pagina Web" />
+    <meta name="author" content="Enmanuel Celedonio" />
+    <meta name="keywords" content="Mi primer titulo, mi primer pagina, pagina web" />
+    <link rel="stylesheet" href="style.css" class="">
 </head>
 
 <body>
-    <header>
-        <h1>Mi Blog</h1>
-    </header>
-
-    <nav>
-        <ul>
-            <li>Principal</li>
-            <li>Ayuda</li>
-            <li>Contacto</li>
-        </ul>
-    </nav>
-
-    <section>
-        <article>
-            <hgroup>
-                <h2>Titulo del mi primer articulo</h2>
-                <h1>Subtitulo del primer articulo</h1>
-            </hgroup>
-            <time datetime="01/05/2020">Publicado 01/05/2020</time>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Dolore nostrum unde repellendus veritatis excepturi culpa 
-                atque mollitia dignissimos possimus est recusandae, facilis 
-                labore, saepe officiis iste, minima ratione nobis et!</p>
-                <img src="imagenes/dev.jpg" alt="" class="">
+   <div class="agrupar">
+        <header class="cabecera">
+            <h1>Mi Blog</h1>
+        </header>
+        
+        <nav class="menu">
+            <ul>
+                <li>Principal</li>
+                <li>Ayuda</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+        
+        <section class= "seccion">
+            <article>
+                <hgroup>
+                    <h1>Titulo del mi primer articulo</h1>
+                    <h2>Subtitulo del primer articulo</h2>
+                </hgroup>
+                <time datetime="01/05/2020">Publicado 01/05/2020</time>
+                        <img src="imagenes/dev.jpg" alt="" class="">
+                <p class="green">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolore nostrum unde repellendus veritatis excepturi culpa
+                    atque mollitia dignissimos possimus est recusandae, facilis
+                    labore, saepe officiis iste, minima ratione nobis et!</p>
                 <footer>
                     <p>Comentarios (0)</p>
                 </footer>
                 <address>
                     <a href="http://google.com">Visita Google</a>
                 </address>
-        </article>
-        <article>
-            <hgroup>
-                <h2>Titulo del mi primer articulo</h2>
-                <h1>Subtitulo del segundo articulo</h1>
-            </hgroup>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Perferendis quae unde quia totam aperiam id officiis 
-                commodi sapiente, dicta provident aliquid nobis vero adipisci!
-                 Quis iure minus tempore eligendi dicta.</p>
-                 <footer>
+            </article>
+            <article>
+                <hgroup>
+                    <h2>Titulo del mi primer articulo</h2>
+                    <h1>Subtitulo del segundo articulo</h1>
+                </hgroup>
+                <time datetime="01/05/2020">Publicado 01/05/2020</time>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis quae unde quia totam aperiam id officiis
+                    commodi sapiente, dicta provident aliquid nobis vero adipisci!
+                    Quis iure minus tempore eligendi dicta.</p>
+                <footer>
                     <p>Comentarios (10)</p>
-                 </footer>
-        </article>
-    </section>
- 
-    <aside>
-        <blockquote cite="http://faztweb.com">
-            Mensaje 1
-        </blockquote>
-
-        <blockquote cite="http;//google.com">
-            Mensaje 2
-        </blockquote>
-
-        Acerca De
-    </aside>
- 
-    <footer>
-        Derechos Reservados 2010-2020
-    </footer>
+                </footer>
+            </article>
+        </section>
+        
+        <aside class="columna">
+            <blockquote cite="http://faztweb.com">
+                Mensaje 1
+            </blockquote>
+        
+            <blockquote cite="http;//google.com">
+                Mensaje 2
+            </blockquote>
+        </aside>
+        
+        <footer class="pie">
+            Derechos Reservados 2010-2020
+        </footer>
+   </div>
 </body>
 
 </html>
